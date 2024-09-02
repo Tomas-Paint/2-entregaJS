@@ -72,7 +72,7 @@ console.log(puntoA)
   const ValgaMenos600 = pizzas.filter((pizza) => {
     
     if(pizza.precio <= 600){
-      console.log(`Si hay pizzas que valen menos de 600, la pizza ${pizza.nombre}, vale ${pizza.precio}`)
+      console.log(`La pizza ${pizza.nombre}, vale ${pizza.precio}`)
     }
     
    
